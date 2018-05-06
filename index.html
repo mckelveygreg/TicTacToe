@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div id="startScreen">
+		<h1>Tick-Tac-Toe</h1>
+		<div class="difficulty">
+			<h2>Difficulty</h2>
+			<span class="level not-selected" id="blind">Blind</span>
+			<span class="level not-selected" id="novice">Novice</span>
+			<span class="level not-selected" id="master">Master</span>
+		</div>
+		<div id="start">Start</div>
+		<!--           
+		<h2>Choose:</h2>
+		<div id="choices">
+			<h2 id="x">X</h2>
+			<h2>||</h2>
+			<h2 id="o">O</h2>
+		</div>
+		-->
+	</div>
+	
+	<div id="gameboard"></div>
+	<div id="settings">
+		<button id="reset" value="reset">Reset</button>
+	</div>
+	<div id="messages">
+		<h2 class="ingame" id="human">Your turn</h2>
+		<h2 class="ingame" id="robot">Robot is thinking</h2>
+
+		<h2 class="ingame" id="won">You Won</h2>
+		<h2 class="ingame" id="lost">You lost :(</h2>
+		<h2 class="ingame" id="draw">At least you tied...</h2>
+	</div>
+
+	<script src="script.js"></script>
+	<script src="game.js"></script>
+	<script src="ai.js"></script>
+	<script src="ui.js"></script>
+</body>
+</html>
