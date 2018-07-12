@@ -31,8 +31,7 @@ var State = function (old) {
 		this.turn = old.turn;
 	}
 
-	//-- board replacement
-// updateBoard() function is up above
+
 	//@return updated board
 
 	//advances turn ------------------------------> replace with variables later? like innerText or userX
